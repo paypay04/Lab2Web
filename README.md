@@ -3,6 +3,8 @@ Nim : 312410224
 Kelas : TI.24.A.2
 
 
+<img width="970" height="552" alt="Screenshot 2025-09-29 150220" src="https://github.com/user-attachments/assets/1752f31b-0fe4-486a-9128-5d63ef836478" />
+
 
 
 
