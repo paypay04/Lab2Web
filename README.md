@@ -2,8 +2,29 @@ Nama : Vivi Alydia
 Nim : 312410224
 Kelas : TI.24.A.2
 
+Membuat dokumen HTML
 
 <img width="970" height="552" alt="Screenshot 2025-09-29 150220" src="https://github.com/user-attachments/assets/1752f31b-0fe4-486a-9128-5d63ef836478" />
+
+Mendeklarasikan CSS Internal
+
+<img width="1920" height="1080" alt="Screenshot (718)" src="https://github.com/user-attachments/assets/5c91f411-18ab-4f40-aea8-4be1afea1616" />
+
+Menambahkan Inline CSS
+
+<img width="1920" height="1080" alt="Screenshot (719)" src="https://github.com/user-attachments/assets/29cad382-e4da-4084-bb8f-0843aabf84cc" />
+
+Membuat CSS Eksternal
+
+<img width="1920" height="1080" alt="Screenshot (720)" src="https://github.com/user-attachments/assets/e54044e7-c70a-454c-b118-9f5fb8727160" />
+
+Menambahkan CSS Selector
+
+<img width="1920" height="1080" alt="Screenshot (722)" src="https://github.com/user-attachments/assets/f26c2933-f49b-4411-b692-260cec6a261d" />
+
+
+
+
 
 
 
@@ -26,46 +47,8 @@ Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
 
 # 📘 Ringkasan Materi CSS Dasar
 
-## 1. Perbedaan `h1 {...}` dengan `#intro h1 {...}`
-- **`h1 {...}`** → berlaku untuk **semua elemen `<h1>`** di halaman.
-- **`#intro h1 {...}`** → hanya berlaku untuk `<h1>` yang berada di dalam elemen dengan `id="intro"`.
 
-### Contoh:
-```html
-<h1>Judul Umum</h1>
-<div id="intro">
-  <h1>Judul di Intro</h1>
-</div>
-```
 
-```css
-h1 {
-  color: blue;
-}
-#intro h1 {
-  color: red;
-}
-```
-👉 Hasil:  
-- "Judul Umum" = biru  
-- "Judul di Intro" = merah  
-
----
-
-## 2. Urutan Prioritas CSS (Internal, Eksternal, Inline)
-Urutan kekuatan CSS (dari terkuat → terlemah):
-1. **Inline CSS** (`style=""`)
-2. **Internal CSS** (`<style>...</style>`)
-3. **Eksternal CSS** (file `.css` terpisah)
-
-### Contoh:
-```html
-<head>
-  <link rel="stylesheet" href="style.css"> <!-- eksternal -->
-  <style>
-    p { color: green; } <!-- internal -->
-  </style>
-</head>
 <body>
   <p style="color: red;">Hello World</p> <!-- inline -->
 </body>
